@@ -77,3 +77,28 @@ body {
     border-bottom: 0;
   }
 }
+
+a.logo img
+{
+  width:180px;
+  padding:5px 0px;
+}
+img.sponsor-logo
+{
+  margin:20px 0px 20px 15px;
+  width: 155px;
+}
+h3.header-dates
+{
+  border-radius: 5px;
+  padding:4px;
+  background: rgba(255,255,255,0.8);
+}
+p
+{
+  text-align: justify;
+}
+div.footer img
+{
+  margin:10px 5px;
+}
