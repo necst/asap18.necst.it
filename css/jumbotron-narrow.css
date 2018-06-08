@@ -13,9 +13,7 @@ body {
 }
 
 /* Custom page header */
-.header {
-  border-bottom: 1px solid #e5e5e5;
-}
+
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
   margin-top: 0;
@@ -99,4 +97,63 @@ p
 div.footer img
 {
   margin:10px 5px;
+}
+
+
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+}
+h1
+{
+  font-size:28px;
+}
+h2
+{
+ font-size:24px; 
+ border-bottom: solid 1px;
+ padding-bottom:5px;
+}
+
+table.program
+{
+    border:solid 1px #AAA;
+    width:100%;
+    margin:20px 0px 0px 0px;
+}
+table.program td
+{
+    border:solid 1px #AAA;
+    width:120px;
+    padding:5px;
+}
+table.program tr
+{
+    background-color: #FFF;
+}
+table.program thead td
+{
+    text-align:center;
+    background: #15445d;
+    color:#FFF;
+}
+table.program tbody.paper-session
+{
+    border-top:solid 3px #000;
+    border-bottom:solid 3px #000;
+}
+table.program tbody.paper-session em
+{
+    display: block;
+}
+table.program td
+{
+    text-align: right;
+    padding-right:8px;
+}
+table.program td+td
+{
+    text-align: left;
+    vertical-align: top;
+    width:auto;
 }
