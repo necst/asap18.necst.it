@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<title>How to Make Sparse Fast - ASAP 2018</title>
+
+		<!-- include:common-head.html -->
+
+	</head>
+	<body>
+
+		<div class="container">
+
+			<!-- include:header.html -->
+
+			<div class="row">
+
+				<div class="col-xs-12 col-sm-12">
+
+					<label class="black-label">Keynote</label>
+
+					<h1>
+						How to Make Sparse Fast
+					</h1>
+
+					<h2>
+						Saman P. Amarasinghe, Professor and Associate Department Head, MIT 
+					</h2>
+
+					<h3>Abstract</h3>
+					<p>
+						Achieving high performance is no easy task. When it comes to program operating on sparse data, where there is very little hardware, language or compiler support, getting high performance is nearly impossible. As important modern applications such as data analytics and simulations operate on sparse data, lack of performance is becoming a critical issue. Achieving high performance was so important from the early days of computing, many researchers have spent their lifetime trying to extract more FLOPS out of critical codes.  Hardcore performance engineers try to get to this performance nirvana single handedly without any help from languages, compilers or tools. In this talk, using two examples, TACO and GraphIt, I’ll argue that domain specific languages and compiler technology can reduce most of the performance optimization burden even in a very difficult domain such as sparse computations.
+					</p>
+					<p>
+						TACO is an optimizing code generator for linear and tensor algebra. TACO introduces a new technique for compiling compound tensor algebra expressions into efficient loops. TACO-generated code has competitive performance to best-in-class hand-written codes for tensor and matrix operations.
+					</p>
+					<p>
+						GraphIt is a DSL and compiler for high-performance graph computing. GraphIt separates algorithm, schedule and physical data layout, providing the programmer with the ultimate control over optimization. GraphIt outperforms the state-of-the-art libraries and DLSs up to 2.4× on scale-free graphs and 4.7× on road graphs.
+					</p>
+
+					<h3>About the speaker</h3>
+					<p>
+						<img src="/images/saman-amarasinghe.jpg" style="width:130px; float:left; margin-right:10px;" alt="Saman P. Amarasinghe"/>
+						Saman P. Amarasinghe is a Professor and Associate Department Head in the Department of Electrical Engineering and Computer Science at Massachusetts Institute of Technology and a member of the Computer Science and Artificial Intelligence Laboratory (CSAIL) where he leads the Commit compiler group. Under Saman's guidance, the Commit group developed the StreamIt, PetaBricks, StreamJIT, Halide, Simit, MILK and GraphIt programming languages and compilers, DynamoRIO dynamic instrumentation system, Superword level parallelism for SIMD vectorization, Program Shepherding to protect programs against external attacks, the OpenTuner extendable autotuner, and the Kendo deterministic execution system. He was the co-leader of the Raw architecture project. His research interests are in discovering novel approaches to improve the performance of modern computer systems without unduly increasing the complexity faced by the end users, application developers, compiler writers, or computer architects. Saman was the founder of Determina Corporation, which was acquired by VMware, and a co-founder of Lanka Internet Services Ltd. Saman received his BS in Electrical Engineering and Computer Science from Cornell University in 1988, and his MSEE and Ph.D from Stanford University in 1990 and 1997, respectively.
+					</p>
+
+				</div>				
+			</div>
+
+			<!-- include:footer.html -->
+
+		</div> <!-- /container -->
+	</body>
+</html>

@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 
-		<title>Conference program - ASAP 2018</title>
+		<title>How to Make Sparse Fast - ASAP 2018</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -73,234 +73,34 @@
 
 				<div class="col-xs-12 col-sm-12">
 
-					<h1>Preliminary Program</h1>
+					<label class="black-label">Keynote</label>
 
+					<h1>
+						How to Make Sparse Fast
+					</h1>
 
-					<table class="program" cellspacing="0" cellpadding="0">
-						<thead>
-							<tr>
-								<td colspan="2"><b>July 9, 2018</b></td>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>09-00 - 18.00</td>
-								<td>
-									<b>Bootcamp on Chisel HDL</a></b><br/>
-									<i>Main Speaker:</i> David Donofrio​ ​- Lawrence Berkeley National Laboratory<br/>
-									<a href="/docs/ChiselBootcamp.pdf" target="_blank">
-										Click here for the bootcamp description
-									</a>
-								</td>
-							</tr>
-						</tbody>
-						<tbody class="paper-session">
-							<tr>
-								<td>09.00 - 13.00</td>
-								<td>Introduction and fundamentals on Chisel HDL</td>
-							</tr>
-							<tr>
-								<td>13.00 - 14.00</td>
-								<td>Lunch</td>
-							</tr>
-							<tr>
-								<td>14.00 - 18.00</td>
-								<td>Hands on session</td>
-							</tr>
-						</tbody>
-					</table>
+					<h2>
+						Saman P. Amarasinghe, Professor and Associate Department Head, MIT 
+					</h2>
 
-					<table class="program" cellspacing="0" cellpadding="0">
-						<thead>
-							<tr>
-								<td colspan="2"><b>July 10, 2018</b></td>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>08.00 - 08.30</td>
-								<td>Registration</td>
-							</tr>
-							<tr>
-								<td>08.30 - 09.30</td>
-								<td>
-									<b>Keynote: </b>
-									<a href="/keynote-make-sparse-fast.html">How to Make Sparse Fast</a><br>
-									Saman P. Amarasinghe, Professor and Associate Department Head, MIT
-								</td>
-							</tr>
-							<tr>
-								<td>09.30 - 10.00</td>
-								<td>Coffee break</td>
-							</tr>
-							<tr>
-								<td>10.00 - 12.00</td>
-								<td>
-									<b>Paper session</b>
-								</td>
-							</tr>
-							<tr>
-								<td>12.00 - 13.00</td>
-								<td>Lunch</td>
-							</tr>
-							<tr>
-								<td>13.00 - 14.00</td>
-								<td>
-									<b>Keynote</b>
-								</td>
-							</tr>
-							<tr>
-								<td>14.00 - 15.30</td>
-								<td>
-									<b>Paper session</b>
-								</td>
-							</tr>
-							<tr>
-								<td>15.30 - 16.00</td>
-								<td>Coffee break</td>
-							</tr>
-							<tr>
-								<td>16.00 - 17.30</td>
-								<td>
-									<b>Paper session</b>
-								</td>
-							</tr>
-						</tbody>
-					</table>
+					<h3>Abstract</h3>
+					<p>
+						Achieving high performance is no easy task. When it comes to program operating on sparse data, where there is very little hardware, language or compiler support, getting high performance is nearly impossible. As important modern applications such as data analytics and simulations operate on sparse data, lack of performance is becoming a critical issue. Achieving high performance was so important from the early days of computing, many researchers have spent their lifetime trying to extract more FLOPS out of critical codes.  Hardcore performance engineers try to get to this performance nirvana single handedly without any help from languages, compilers or tools. In this talk, using two examples, TACO and GraphIt, I’ll argue that domain specific languages and compiler technology can reduce most of the performance optimization burden even in a very difficult domain such as sparse computations.
+					</p>
+					<p>
+						TACO is an optimizing code generator for linear and tensor algebra. TACO introduces a new technique for compiling compound tensor algebra expressions into efficient loops. TACO-generated code has competitive performance to best-in-class hand-written codes for tensor and matrix operations.
+					</p>
+					<p>
+						GraphIt is a DSL and compiler for high-performance graph computing. GraphIt separates algorithm, schedule and physical data layout, providing the programmer with the ultimate control over optimization. GraphIt outperforms the state-of-the-art libraries and DLSs up to 2.4× on scale-free graphs and 4.7× on road graphs.
+					</p>
 
+					<h3>About the speaker</h3>
+					<p>
+						<img src="/images/saman-amarasinghe.jpg" style="width:130px; float:left; margin-right:10px;" alt="Saman P. Amarasinghe"/>
+						Saman P. Amarasinghe is a Professor and Associate Department Head in the Department of Electrical Engineering and Computer Science at Massachusetts Institute of Technology and a member of the Computer Science and Artificial Intelligence Laboratory (CSAIL) where he leads the Commit compiler group. Under Saman's guidance, the Commit group developed the StreamIt, PetaBricks, StreamJIT, Halide, Simit, MILK and GraphIt programming languages and compilers, DynamoRIO dynamic instrumentation system, Superword level parallelism for SIMD vectorization, Program Shepherding to protect programs against external attacks, the OpenTuner extendable autotuner, and the Kendo deterministic execution system. He was the co-leader of the Raw architecture project. His research interests are in discovering novel approaches to improve the performance of modern computer systems without unduly increasing the complexity faced by the end users, application developers, compiler writers, or computer architects. Saman was the founder of Determina Corporation, which was acquired by VMware, and a co-founder of Lanka Internet Services Ltd. Saman received his BS in Electrical Engineering and Computer Science from Cornell University in 1988, and his MSEE and Ph.D from Stanford University in 1990 and 1997, respectively.
+					</p>
 
-					<table class="program" cellspacing="0" cellpadding="0">
-						<thead>
-							<tr>
-								<td colspan="2"><b>July 11, 2018</b></td>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>08.30 - 09.30</td>
-								<td>
-									<b>Keynote: </b>
-									<a href="/keynote-open-source-hpc.html">How open source designs will drive the next generation of HPC Systems</a><br>
-									David Donofrio, Group Lead &amp; Computer Systems Engineer at Lawrence Berkeley National Lab
-								</td>
-							</tr>
-							<tr>
-								<td>09.30 - 10.00</td>
-								<td>Coffee break</td>
-							</tr>
-							<tr>
-								<td>10.00 - 12.00</td>
-								<td>
-									<b>Paper session</b>
-								</td>
-							</tr>
-							<tr>
-								<td>12.00 - 13.00</td>
-								<td>Lunch</td>
-							</tr>
-						</tdboy>
-						<tbody class="paper-session">
-								<tr>
-									<td>13.00 - 14.00</td>
-									<td>
-										<b>Keynote: </b>
-										<a href="/keynote-google-pixel.html">Google Pixel Visual Core: A Portable Domain-Specific Processor for Computational Photography and Machine Learning</a><br>
-										Andrea Di Blas, Software Engineer at Google
-									</td>
-								</tr>
-						</tdboy>
-						<tbody>
-							<tr>
-								<td>14.00 - 15.30</td>
-								<td>
-									<b>Paper session</b>
-								</td>
-							</tr>
-							<tr>
-								<td>15.30 - 16.00</td>
-								<td>Coffee break</td>
-							</tr>
-							<tr>
-								<td>16.00 - 17.30</td>
-								<td>
-									<b>Paper session</b>
-								</td>
-							</tr>
-						</tbody>
-					</table>
-
-
-					<table class="program" cellspacing="0" cellpadding="0">
-						<thead>
-							<tr>
-								<td colspan="2"><b>July 12, 2018</b></td>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>08.30 - 09.30</td>
-								<td>
-									<b>Keynote: </b>
-									<a href="/keynote-machine-learning.html">Design Trade-offs for Machine Learning Solutions on Reconfigurable Devices</a><br>
-									Michaela Blott, Principal Engineer at Xilinx
-								</td>
-							</tr>
-							<tr>
-								<td>09.30 - 10.00</td>
-								<td>Coffee break</td>
-							</tr>
-							<tr>
-								<td>10.00 - 12.00</td>
-								<td>
-									<b>Paper session</b>
-								</td>
-							</tr>
-							<tr>
-								<td>12.00 - 13.00</td>
-								<td>Lunch</td>
-							</tr>
-							<tr>
-								<td>13.00 - 14.30</td>
-								<td>
-									<b>Paper session</b>
-								</td>
-							</tr>
-							<tr>
-								<td>14.30 - 15.00</td>
-								<td>Coffee break</td>
-							</tr>
-							<tr>
-								<td>15.00 - 16.30</td>
-								<td>
-									<b>Paper session</b>
-								</td>
-							</tr>
-							<tr>
-								<td>16.30 - 17.30</td>
-								<td>
-									<b>Closing remarks and best paper award announcement</b>
-								</td>
-							</tr>
-						</tbody>
-					</table>
-
-					<table class="program" cellspacing="0" cellpadding="0">
-						<thead>
-							<tr>
-								<td colspan="2"><b>July 13, 2018</b></td>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td></td>
-								<td>Co-located Workshops and Tutorials - <b>To be defined</b></td>
-							</tr>
-						</tbody>
-					</table>
-
-				</div>
-
-				
+				</div>				
 			</div>
 
     <div class="footer" style="text-align: center">
@@ -335,8 +135,3 @@
 		</div> <!-- /container -->
 	</body>
 </html>
-
-
-
-
-
