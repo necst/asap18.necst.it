@@ -207,3 +207,16 @@ table.program td+td
   position: sticky;
   top:15px;
 }
+
+ul.hotel-list
+{
+  padding:0 0 0 10px;
+}
+ul.hotel-list li
+{
+  list-style-type: none;
+  margin:25px 0;
+  border-left:solid 4px #ccc;
+  display: block;
+  padding-left:12px;
+}
