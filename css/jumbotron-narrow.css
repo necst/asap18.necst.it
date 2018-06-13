@@ -220,3 +220,7 @@ ul.hotel-list li
   display: block;
   padding-left:12px;
 }
+.spaced-list li
+{
+    padding:10px 0;
+}
