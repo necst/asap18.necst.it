@@ -224,3 +224,12 @@ ul.hotel-list li
 {
     padding:10px 0;
 }
+.flex-row-centered
+{
+  flex-wrap: wrap; 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-around;
+  text-align: center;
+  margin:0 15px;
+}
