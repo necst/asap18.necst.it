@@ -182,6 +182,10 @@ table.program thead td
     background: #15445d;
     color:#FFF;
 }
+table.program thead.red td
+{
+    background:#5d1515;
+}
 table.program tbody.paper-session
 {
     border-top:solid 3px #000;
@@ -232,4 +236,8 @@ ul.hotel-list li
   justify-content: space-around;
   text-align: center;
   margin:0 15px;
+}
+.news li
+{
+    margin:6px 0;
 }
