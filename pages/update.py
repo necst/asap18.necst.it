@@ -23,7 +23,7 @@ for filename in listdir(pages_dir):
 				res = include_regexp.match(l)
 				if res:
 					include_filename = res.groups(1)[0]
-					print('detected include: ' + include_filename)
+					print('detected in_fullpathclude: ' + include_filename)
 					include_fullpath = join(include_dir, include_filename)
 					with open(include_fullpath, 'rt') as include_in:
 						for l_include in include_in:
